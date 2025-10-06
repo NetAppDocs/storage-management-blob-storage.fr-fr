@@ -1,0 +1,103 @@
+---
+sidebar: sidebar 
+permalink: task-add-blob-storage.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, add storage accounts, netapp console, system 
+summary: Une fois que votre système de stockage d’objets blob Azure est disponible sur la page des systèmes de la console NetApp , vous pouvez ajouter des comptes de stockage supplémentaires directement depuis la console. 
+---
+= Ajouter des comptes de stockage Azure Blob dans la console NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Une fois que votre système de stockage d’objets blob Azure est disponible sur la page des systèmes de la console NetApp , vous pouvez ajouter des comptes de stockage supplémentaires directement depuis la console.
+
+.Étapes
+. Depuis la page Systèmes, sélectionnez le système Azure Blob Storage pour afficher sa page de présentation.
+. Sélectionnez *Ajouter un compte de stockage*.
++
+image:screenshot-add-blob-storage-button.png["Une capture d’écran qui montre les détails d’un système de stockage d’objets blob Azure et le bouton Ajouter un compte de stockage."]
+
++
+La page _Ajouter un compte de stockage_ s'affiche.
+
++
+image:screenshot-add-blob-storage.png["Une capture d’écran montrant la page Ajouter un compte de stockage afin que vous puissiez créer vos propres comptes de stockage Azure Blob."]
+
+. Saisissez les informations requises dans la section _Détails du projet_.
++
+[cols="25,75"]
+|===
+| Champ | Description 
+
+
+| Abonnement | Sélectionnez l’abonnement Azure pour le nouveau compte de stockage. 
+
+
+| Groupe de ressources  a| 
+Sélectionnez un groupe de ressources existant pour ce compte de stockage.
+
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal["En savoir plus sur les groupes de ressources"^] .
+
+|===
+. Dans la section _Détails de l'instance_, saisissez le nom du compte de stockage et sélectionnez une ou plusieurs régions dans lesquelles le compte de stockage doit être créé.
++
+[cols="25,75"]
+|===
+| Champ | Description 
+
+
+| Nom du compte de stockage | Saisissez le nom que vous souhaitez utiliser pour le compte de stockage.  Le nom doit comporter entre 3 et 24 caractères et ne peut contenir que des chiffres et des lettres minuscules. 
+
+
+| Région Azure  a| 
+Sélectionnez une région dans la liste où le compte de stockage sera créé.
+
+Sélectionnez la région appropriée pour votre compte de stockage. https://learn.microsoft.com/en-us/azure/availability-zones/az-overview["Consultez la documentation Microsoft pour plus d'informations sur les régions Azure et les zones de disponibilité."^] .
+
+Toutes les régions ne sont pas prises en charge pour tous les types de comptes de stockage ou de configurations de redondance. https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy["Consultez la documentation Microsoft pour plus d'informations sur la redondance du stockage Azure."^] .
+
+De plus, le choix de la région peut avoir un impact sur la facturation. https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#storage-account-billing["Consultez la documentation Microsoft pour plus d'informations sur la facturation des comptes de stockage Azure."^] .
+
+
+
+| Type de performance  a| 
+Sélectionnez si vous souhaitez utiliser un stockage de performance *Standard* ou *Premium*. https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts["Consultez la documentation Microsoft pour plus d'informations sur les types de comptes de stockage."^] .
+
+** Les performances _Standard_ sont utilisées pour les comptes de stockage v2 à usage général.  Ce type de compte est recommandé pour la plupart des scénarios.
+** Les performances _Premium_ sont utilisées pour les scénarios qui nécessitent une faible latence.  Il existe trois types de comptes de stockage premium disponibles : les blobs de blocs, les partages de fichiers et les blobs de pages.
+
+
+|===
+. Dans la section _Tags_, vous pouvez saisir jusqu'à 10 paires clé/valeur de balises pour regrouper vos ressources.
++
+Les balises sont des métadonnées que vous pouvez utiliser pour regrouper des ressources afin d'identifier des applications, des environnements, des régions, des fournisseurs de cloud, etc. Vous pouvez ajouter des balises à un compte de stockage afin que les balises soient appliquées aux objets lorsqu'ils sont ajoutés au compte de stockage.
+
++
+Les balises sont désactivées par défaut dans les nouveaux comptes de stockage créés par la console. https://learn.microsoft.com/en-us/azure/storage/blobs/storage-manage-find-blobs["En savoir plus sur le marquage"^] .
+
+. Dans la section _Cryptage_, choisissez le type de cryptage de données que vous souhaitez utiliser pour protéger l'accès aux données du compte de stockage.
++
+[cols="25,75"]
+|===
+| Type de cryptage des données | Description 
+
+
+| Clés gérées par Microsoft | Par défaut, les clés de chiffrement gérées par Microsoft sont utilisées pour chiffrer vos données. 
+
+
+| Clés gérées par le client  a| 
+Vous pouvez utiliser vos propres clés gérées par le client pour le chiffrement des données au lieu d’utiliser les clés de chiffrement par défaut gérées par Microsoft.  Si vous prévoyez d'utiliser vos propres clés gérées par le client, vous devrez déjà les avoir créées afin de pouvoir sélectionner le coffre de clés et les clés sur cette page.
+
+Les clés peuvent être dans le même abonnement que le compte de stockage, ou vous pouvez sélectionner un abonnement différent.
+
+|===
++
+Consultez la documentation Microsoft Azure pour https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption["plus d'informations sur les clés gérées par Microsoft"^] , et https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview["plus d'informations sur les clés gérées par le client"^] .
+
+. Sélectionnez *Ajouter* pour créer le bucket.
+

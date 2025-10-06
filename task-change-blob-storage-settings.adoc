@@ -1,0 +1,86 @@
+---
+sidebar: sidebar 
+permalink: task-change-blob-storage-settings.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, system 
+summary: Une fois que votre système de stockage d’objets blob Azure est disponible sur la page Systèmes, vous pouvez modifier certaines propriétés du compte de stockage directement depuis la console NetApp . 
+---
+= Modifier les paramètres du compte de stockage Azure Blob dans la console NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Une fois que votre système de stockage d’objets blob Azure est disponible sur la page Systèmes, vous pouvez modifier certaines propriétés du compte de stockage directement depuis la console NetApp .
+
+Notez que vous ne pouvez pas modifier le nom du compte de stockage, la région Azure ou le type de performances du stockage.
+
+Les propriétés du compte de stockage que vous pouvez modifier incluent :
+
+* L'abonnement et le groupe de ressources pour le compte de stockage.
+* Ajoutez, modifiez ou supprimez des balises pour les objets ajoutés au compte de stockage.
+* Si les nouveaux objets ajoutés au compte de stockage sont chiffrés ou non, et l'option utilisée pour le chiffrement.
+
+
+Vous pouvez modifier ces paramètres de compte de stockage directement depuis Connsole en sélectionnantimage:button-horizontal-more.gif["le bouton trois points supplémentaires"] pour un compte de stockage.
+
+image:screenshot-edit-azure-blob-storage.png["Une capture d’écran montrant comment modifier les propriétés du compte de stockage à partir de la console."]
+
+
+
+== Modifier les détails du projet
+
+Dans la section _Détails du projet_, vous pouvez modifier l'abonnement et le groupe de ressources pour le compte de stockage.
+
+[cols="25,75"]
+|===
+| Champ | Description 
+
+
+| Abonnement | Sélectionnez un autre abonnement Azure pour le compte de stockage. 
+
+
+| Groupe de ressources  a| 
+Sélectionnez un groupe de ressources différent pour le compte de stockage.
+
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal["En savoir plus sur les groupes de ressources"^] .
+
+|===
+Sélectionnez *Enregistrer* pour enregistrer les modifications apportées au compte de stockage.
+
+
+
+== Ajouter ou modifier les balises des objets dans le compte de stockage
+
+Dans la section _Tags_, vous pouvez ajouter jusqu'à 10 paires clé/valeur de balise, ou vous pouvez modifier ou supprimer une paire clé/valeur de balise.  Les balises sont appliquées aux objets lorsqu'ils sont ajoutés au compte de stockage.  Si vous souhaitez ajouter d'autres balises, sélectionnez *Ajouter une nouvelle balise*.
+
+https://learn.microsoft.com/en-us/azure/storage/blobs/storage-manage-find-blobs["En savoir plus sur le balisage à partir de la documentation Microsoft"^] .
+
+Sélectionnez *Enregistrer* pour enregistrer les modifications apportées au compte de stockage.
+
+
+
+== Modifier le paramètre de cryptage
+
+Dans la section _Cryptage_, vous pouvez modifier le type de cryptage de données que vous souhaitez utiliser pour protéger l'accès aux données de vos comptes de stockage.
+
+[cols="25,75"]
+|===
+| Type de cryptage des données | Description 
+
+
+| Clés gérées par Microsoft | Par défaut, les clés de chiffrement gérées par Microsoft sont utilisées pour chiffrer vos données. 
+
+
+| Clés gérées par le client  a| 
+Vous pouvez utiliser vos propres clés gérées par le client pour le chiffrement des données au lieu d’utiliser les clés de chiffrement par défaut gérées par Microsoft.  Si vous prévoyez d'utiliser vos propres clés gérées par le client, vous devrez déjà les avoir créées afin de pouvoir sélectionner le coffre de clés et les clés sur cette page.
+
+Les clés peuvent être dans le même abonnement que le compte de stockage, ou vous pouvez sélectionner un abonnement différent.
+
+|===
+Consultez la documentation Microsoft Azure pour https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption["plus d'informations sur les clés gérées par Microsoft"^] , et https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview["plus d'informations sur les clés gérées par le client"^] .
+
+Sélectionnez *Enregistrer* pour enregistrer les modifications apportées au compte de stockage.

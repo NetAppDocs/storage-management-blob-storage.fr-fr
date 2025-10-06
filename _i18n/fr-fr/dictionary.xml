@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="f9037e3eb23130835367334e3aa5a34b" category="doc">Possibilité d'ajouter de nouveaux comptes de stockage à partir de BlueXP</block>
+  <block id="7e4c7c60d975edb27a163364c9868139" category="inline-xref-macro">Découvrez comment ajouter de nouveaux comptes de stockage Azure Blob</block>
+  <block id="f85f92208aecee0545b9eedb64b14672" category="paragraph">Vous avez la possibilité d’afficher Azure Blob Storage sur BlueXP Canvas depuis un certain temps.  Vous pouvez désormais ajouter de nouveaux comptes de stockage et modifier les propriétés des comptes de stockage existants directement depuis BlueXP. <block ref="127c39654391bed812f2268282064990" category="inline-xref-macro-rx"></block> .</block>
+  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP est désormais NetApp Console</block>
+  <block id="745be0d280d894f70c3f88e76f519456" category="paragraph">BlueXP a été renommé et repensé pour mieux refléter son rôle dans la gestion de votre infrastructure de données.</block>
+  <block id="7e4f7c37590688c797d9b40e3a3423e3" category="paragraph">La console NetApp offre une gestion centralisée des services de stockage et de données dans les environnements sur site et dans le cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée.</block>
+  <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link">Notes de version de la console NetApp</block>
+  <block id="9d88b780dd182bc558e5dd7624d35838" category="paragraph">Pour plus de détails sur ce qui a changé, consultez le<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block> .</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Mentions légales</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Les mentions légales donnent accès aux déclarations de droits d'auteur, aux marques déposées, aux brevets et bien plus encore.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Copyright</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marques de commerce</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP, le logo NETAPP et les marques répertoriées sur la page Marques NetApp sont des marques commerciales de NetApp, Inc. Les autres noms de sociétés et de produits peuvent être des marques commerciales de leurs propriétaires respectifs.</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Brevets</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Une liste actuelle des brevets détenus par NetApp est disponible à l'adresse suivante :</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Politique de confidentialité</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Open source</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Les fichiers d'avis fournissent des informations sur les droits d'auteur et les licences tiers utilisés dans les logiciels NetApp .</block>
+  <block id="50dbf63cd0ab8144a287e5cd6a0f1de2" category="inline-link">Avis concernant la console NetApp</block>
+  <block id="e672b1ea49afca81ea77f91f12f606ea" category="paragraph"><block ref="e672b1ea49afca81ea77f91f12f606ea" category="inline-link-rx"></block></block>
+  <block id="3572522b9cf12bb382fd0920f5745fd0" category="summary">Une fois que votre système de stockage d’objets blob Azure est disponible sur la page des systèmes de la console NetApp , vous pouvez ajouter des comptes de stockage supplémentaires directement depuis la console.</block>
+  <block id="98249a942e9f70229e82c312e65b0c3e" category="doc">Ajouter des comptes de stockage Azure Blob dans la console NetApp</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Étapes</block>
+  <block id="f26976a57b4b2678f49494dbb9d5d7e3" category="list-text">Depuis la page Systèmes, sélectionnez le système Azure Blob Storage pour afficher sa page de présentation.</block>
+  <block id="602b161b60e8246dc4e65dcaef35823e" category="list-text">Sélectionnez *Ajouter un compte de stockage*.</block>
+  <block id="d956460f8fb7f0726172fd2714137772" category="inline-image-macro">Une capture d’écran qui montre les détails d’un système de stockage d’objets blob Azure et le bouton Ajouter un compte de stockage.</block>
+  <block id="60e5d28f2c57cb8735c8e9845d47df43" category="paragraph"><block ref="60e5d28f2c57cb8735c8e9845d47df43" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4d4dcbffc28d157acf2d779535ea39e5" category="paragraph">La page _Ajouter un compte de stockage_ s'affiche.</block>
+  <block id="bf04df0a09965db404ac8255f46f224b" category="inline-image-macro">Une capture d’écran montrant la page Ajouter un compte de stockage afin que vous puissiez créer vos propres comptes de stockage Azure Blob.</block>
+  <block id="2ec7cbfa91de880af44acf67a5f1462e" category="paragraph"><block ref="2ec7cbfa91de880af44acf67a5f1462e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6c2ed49d2a85251adbf8725c16c45ceb" category="list-text">Saisissez les informations requises dans la section _Détails du projet_.</block>
+  <block id="6f16a5f8ff5d75ab84c018adacdfcbb7" category="cell">Champ</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">Description</block>
+  <block id="787ad0b7a17de4ad6b1711bbf8d79fcb" category="cell">Abonnement</block>
+  <block id="297cc7b38642922e63d9c24e2ee9ffcf" category="cell">Sélectionnez l’abonnement Azure pour le nouveau compte de stockage.</block>
+  <block id="dde92bca1b59f0db813ef42a2688752e" category="cell">Groupe de ressources</block>
+  <block id="d1336732268253a419277477d356697a" category="paragraph">Sélectionnez un groupe de ressources existant pour ce compte de stockage.</block>
+  <block id="b32c0d2df176fefd71be6c2adefbc180" category="inline-link">En savoir plus sur les groupes de ressources</block>
+  <block id="7ac86296fadeb1001aa3f5bbef887896" category="paragraph"><block ref="445f5298ad882f018cbc306156a1ebe2" category="inline-link-rx"></block> .</block>
+  <block id="d7e28c7a6d98bdbd4c9cd9d4dc11a628" category="list-text">Dans la section _Détails de l'instance_, saisissez le nom du compte de stockage et sélectionnez une ou plusieurs régions dans lesquelles le compte de stockage doit être créé.</block>
+  <block id="f0a1afcc0650dae92930971db3ae3a1d" category="cell">Nom du compte de stockage</block>
+  <block id="558e46bdb9949da37975f8388e28a597" category="cell">Saisissez le nom que vous souhaitez utiliser pour le compte de stockage.  Le nom doit comporter entre 3 et 24 caractères et ne peut contenir que des chiffres et des lettres minuscules.</block>
+  <block id="8d154dd14e0b151238dd0e49b65d9533" category="cell">Région Azure</block>
+  <block id="53c8664828c7264efef66eced9671dc2" category="paragraph">Sélectionnez une région dans la liste où le compte de stockage sera créé.</block>
+  <block id="c0e40ff2b716a80cbc2fd16626d3f61e" category="inline-link">Consultez la documentation Microsoft pour plus d'informations sur les régions Azure et les zones de disponibilité.</block>
+  <block id="40355867a264abf094a9aa779a75dd8f" category="paragraph">Sélectionnez la région appropriée pour votre compte de stockage.<block ref="abc87d23fc6c9f021e60756e2063dcc3" category="inline-link-rx"></block> .</block>
+  <block id="f203c4b479a5bcde0bc73db580e9f3d1" category="inline-link">Consultez la documentation Microsoft pour plus d'informations sur la redondance du stockage Azure.</block>
+  <block id="ff87f9fbf7898f496194f1980d48f4a2" category="paragraph">Toutes les régions ne sont pas prises en charge pour tous les types de comptes de stockage ou de configurations de redondance.<block ref="bded912a08f603cb0260e0b6aa67ac71" category="inline-link-rx"></block> .</block>
+  <block id="3990a9fcdaa918091759458ba1a25c61" category="inline-link">Consultez la documentation Microsoft pour plus d'informations sur la facturation des comptes de stockage Azure.</block>
+  <block id="110a49b3ef49fc5f4692cff7fdb8718a" category="paragraph">De plus, le choix de la région peut avoir un impact sur la facturation.<block ref="7d719ff2031acb955e3bbd19c0a78d6b" category="inline-link-rx"></block> .</block>
+  <block id="102eb053f612f322d6cf12b730d38311" category="cell">Type de performance</block>
+  <block id="019952a548f814654c4e6a303422b97a" category="inline-link">Consultez la documentation Microsoft pour plus d'informations sur les types de comptes de stockage.</block>
+  <block id="51abeeefb299dcba3785b7f3cefdc22f" category="paragraph">Sélectionnez si vous souhaitez utiliser un stockage de performance *Standard* ou *Premium*.<block ref="873a6ab78f8c2b10225a89b561955b0f" category="inline-link-rx"></block> .</block>
+  <block id="1fe18ace05440ed78b22fa7bebf91aa4" category="list-text">Les performances _Standard_ sont utilisées pour les comptes de stockage v2 à usage général.  Ce type de compte est recommandé pour la plupart des scénarios.</block>
+  <block id="728b4e5c0a4f62a5b33a5649ba2db610" category="list-text">Les performances _Premium_ sont utilisées pour les scénarios qui nécessitent une faible latence.  Il existe trois types de comptes de stockage premium disponibles : les blobs de blocs, les partages de fichiers et les blobs de pages.</block>
+  <block id="8b967113821842e03de579c9069daf60" category="list-text">Dans la section _Tags_, vous pouvez saisir jusqu'à 10 paires clé/valeur de balises pour regrouper vos ressources.</block>
+  <block id="8fffdc96fdfcfdbc3aca184e2b8ca41a" category="paragraph">Les balises sont des métadonnées que vous pouvez utiliser pour regrouper des ressources afin d'identifier des applications, des environnements, des régions, des fournisseurs de cloud, etc. Vous pouvez ajouter des balises à un compte de stockage afin que les balises soient appliquées aux objets lorsqu'ils sont ajoutés au compte de stockage.</block>
+  <block id="587a3b529ee36768600b3185997270b8" category="inline-link">En savoir plus sur le marquage</block>
+  <block id="244ef5d2515eddfc5c192e301b05428a" category="paragraph">Les balises sont désactivées par défaut dans les nouveaux comptes de stockage créés par la console.<block ref="7faf9551ac5d323516ac260dde96010c" category="inline-link-rx"></block> .</block>
+  <block id="48ad81c476da7ce1819397078217ad4d" category="list-text">Dans la section _Cryptage_, choisissez le type de cryptage de données que vous souhaitez utiliser pour protéger l'accès aux données du compte de stockage.</block>
+  <block id="3603122b16ffebe244e1d0d7f1d34faa" category="cell">Type de cryptage des données</block>
+  <block id="20c72b71b183c5eef4e98c53a89dcffa" category="cell">Clés gérées par Microsoft</block>
+  <block id="6f9a295964454cb07657794f38c155a5" category="cell">Par défaut, les clés de chiffrement gérées par Microsoft sont utilisées pour chiffrer vos données.</block>
+  <block id="7e9a4d492051329215e26c7a9f847546" category="cell">Clés gérées par le client</block>
+  <block id="19cd180fa0b90f4870326704c4f3c4f9" category="paragraph">Vous pouvez utiliser vos propres clés gérées par le client pour le chiffrement des données au lieu d’utiliser les clés de chiffrement par défaut gérées par Microsoft.  Si vous prévoyez d'utiliser vos propres clés gérées par le client, vous devrez déjà les avoir créées afin de pouvoir sélectionner le coffre de clés et les clés sur cette page.</block>
+  <block id="3af46610d84535bcb463b8926bbad9bf" category="paragraph">Les clés peuvent être dans le même abonnement que le compte de stockage, ou vous pouvez sélectionner un abonnement différent.</block>
+  <block id="bf9506c29548950a761acad26f68f805" category="inline-link">plus d'informations sur les clés gérées par Microsoft</block>
+  <block id="518fa4ed7cef478f91e710fa235bf797" category="inline-link">plus d'informations sur les clés gérées par le client</block>
+  <block id="1c996ef0ac245038c210c7f6136b7a5f" category="paragraph">Consultez la documentation Microsoft Azure pour<block ref="00b60a199735a6cd55c721820633fd18" category="inline-link-rx"></block> , et<block ref="179ce78dfc1dee8d313bdcb48c576259" category="inline-link-rx"></block> .</block>
+  <block id="4075c13a9dc3ab5fe72584ab95dcb280" category="list-text">Sélectionnez *Ajouter* pour créer le bucket.</block>
+  <block id="743c7f25a48e123c93c9fc954e6a69df" category="summary">Après avoir découvert les comptes de stockage Azure Blob dans BlueXP, vous pouvez utiliser les services de données NetApp pour la sauvegarde, la hiérarchisation et la synchronisation des données.</block>
+  <block id="6650dfeb4f458c61b2949845625bd24c" category="doc">Utiliser les services de données NetApp avec le stockage Azure Blob</block>
+  <block id="1b2bcb14630e84f98ecf8fc8ba9e1bd7" category="paragraph">Une fois que vous avez découvert les comptes de stockage Azure Blob dans la console NetApp , vous pouvez utiliser les services de données NetApp pour la sauvegarde, la hiérarchisation et la synchronisation des données.</block>
+  <block id="8244f0a4bfcb8635db2f91ef5aa1b9eb" category="list-text">Utilisez * NetApp Backup and Recovery* pour sauvegarder les données de vos systèmes ONTAP et Cloud Volumes ONTAP sur site vers le stockage Azure Blob.</block>
+  <block id="de91c1448816840d85691a77ebd16003" category="paragraph">Pour commencer, accédez à la page Systèmes.  Faites glisser et déposez un système ONTAP ou Cloud Volumes ONTAP local sur votre système de stockage d’objets blob Azure.</block>
+  <block id="d86f0808bf63647bc6d2990fee15f32a" category="inline-link">En savoir plus sur la sauvegarde des données ONTAP sur le stockage Azure Blob</block>
+  <block id="95af42d58740cb6ef9743795caced435" category="paragraph"><block ref="a81ea9edabd79d5dc24a3011f7940a63" category="inline-link-rx"></block> .</block>
+  <block id="95578947246790f85684248eaa680963" category="list-text">Utilisez * NetApp Cloud Tiering* pour hiérarchiser les données inactives des clusters ONTAP locaux vers le stockage Azure Blob.</block>
+  <block id="565724b78e68c2fe59a7fe137cb67cf4" category="paragraph">Pour commencer, accédez à la page Systèmes.  Faites glisser et déposez un système ONTAP local sur votre système de stockage d’objets blob Azure.</block>
+  <block id="683411769b2e2b5ee5d1c8ac476393d4" category="inline-link">En savoir plus sur la hiérarchisation des données ONTAP vers le stockage Azure Blob</block>
+  <block id="f8f7dea78fa7518dbbdf96d1aafadc4b" category="paragraph"><block ref="55d91164053c84267300c3db4638255c" category="inline-link-rx"></block> .</block>
+  <block id="fbf760e5fd50e3458e72728d6cfcdd8c" category="list-text">Utilisez * NetApp Copy and Sync* pour synchroniser les données vers ou depuis les comptes de stockage Azure Blob.</block>
+  <block id="92f68f59c4c56b8e291f44d42de2d134" category="paragraph">Pour commencer, accédez à la page Systèmes.  Faites glisser et déposez le système source sur le système cible.  Votre système de stockage d’objets blob Azure peut être la source ou la cible.</block>
+  <block id="ae6c3cec15a4ac482ea9a67236df0484" category="paragraph">Vous pouvez également sélectionner votre système de stockage d’objets blob Azure, puis *Copier et synchroniser* dans le panneau Services pour synchroniser les données vers ou depuis les comptes de stockage d’objets blob Azure.</block>
+  <block id="457a1cf5fd2ca976e622a9a914d24bad" category="inline-link">En savoir plus sur la copie et la synchronisation</block>
+  <block id="390b3380d403721d5ae98adafc131592" category="paragraph"><block ref="f9b2d2345f65b81f6f23df634577d11f" category="inline-link-rx"></block> .</block>
+  <block id="3cdcdc716a6a72fc6747db0e7fc271df" category="summary">Une fois que votre système de stockage d’objets blob Azure est disponible sur la page Systèmes, vous pouvez modifier certaines propriétés du compte de stockage directement depuis la console NetApp .</block>
+  <block id="326e8a2426191fe14f044e4c0c5c2763" category="doc">Modifier les paramètres du compte de stockage Azure Blob dans la console NetApp</block>
+  <block id="e4d20ea28e0dccf4440f8908211c905a" category="paragraph">Notez que vous ne pouvez pas modifier le nom du compte de stockage, la région Azure ou le type de performances du stockage.</block>
+  <block id="e7ed4bfb82f1066f906424570659dbe9" category="paragraph">Les propriétés du compte de stockage que vous pouvez modifier incluent :</block>
+  <block id="50ef0c48e3784c389a3eb1a1d713adf7" category="list-text">L'abonnement et le groupe de ressources pour le compte de stockage.</block>
+  <block id="737f49f5c14b1caf292db3a6a483b522" category="list-text">Ajoutez, modifiez ou supprimez des balises pour les objets ajoutés au compte de stockage.</block>
+  <block id="781c08ce41f6fcf95d2d660f80be5e81" category="list-text">Si les nouveaux objets ajoutés au compte de stockage sont chiffrés ou non, et l'option utilisée pour le chiffrement.</block>
+  <block id="8844ea245d7c08ab2233754002d80b15" category="inline-image-macro">le bouton trois points supplémentaires</block>
+  <block id="c3d7dc296064c77cfd2830516fdcf6cb" category="paragraph">Vous pouvez modifier ces paramètres de compte de stockage directement depuis Connsole en sélectionnant<block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> pour un compte de stockage.</block>
+  <block id="36dcecbde1013c70c1ba5aae99acce7f" category="inline-image-macro">Une capture d’écran montrant comment modifier les propriétés du compte de stockage à partir de la console.</block>
+  <block id="77b095b5304abdbbe2056329047c79c6" category="paragraph"><block ref="77b095b5304abdbbe2056329047c79c6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="869eb1956c09b2f8ed60f3ca35970fbf" category="section-title">Modifier les détails du projet</block>
+  <block id="19b197bd0a78837ce4e03a124c64ed82" category="paragraph">Dans la section _Détails du projet_, vous pouvez modifier l'abonnement et le groupe de ressources pour le compte de stockage.</block>
+  <block id="feb48bb74d60f8176232bcb55b1deccd" category="cell">Sélectionnez un autre abonnement Azure pour le compte de stockage.</block>
+  <block id="8ef21a42c9501fd64e52e3dec49f1962" category="paragraph">Sélectionnez un groupe de ressources différent pour le compte de stockage.</block>
+  <block id="2096a89f09bd7c0b6d3faaf57bed993b" category="paragraph">Sélectionnez *Enregistrer* pour enregistrer les modifications apportées au compte de stockage.</block>
+  <block id="7668db01dedac8d796487eff4668ade4" category="section-title">Ajouter ou modifier les balises des objets dans le compte de stockage</block>
+  <block id="7f5a3e22fe10a8736a6617032c124d65" category="paragraph">Dans la section _Tags_, vous pouvez ajouter jusqu'à 10 paires clé/valeur de balise, ou vous pouvez modifier ou supprimer une paire clé/valeur de balise.  Les balises sont appliquées aux objets lorsqu'ils sont ajoutés au compte de stockage.  Si vous souhaitez ajouter d'autres balises, sélectionnez *Ajouter une nouvelle balise*.</block>
+  <block id="30e9a668dc19dece9cb3dd69e9b063d3" category="inline-link">En savoir plus sur le balisage à partir de la documentation Microsoft</block>
+  <block id="80598dfcfb04cfe9ee89b3dd2435d966" category="paragraph"><block ref="ecb9289e48b99f9d8e4a15e023dafaa1" category="inline-link-rx"></block> .</block>
+  <block id="26d7220e95a948de8f8bee2eb2c05ec8" category="section-title">Modifier le paramètre de cryptage</block>
+  <block id="8482b20813e2f73309385bb4bbb2d3b3" category="paragraph">Dans la section _Cryptage_, vous pouvez modifier le type de cryptage de données que vous souhaitez utiliser pour protéger l'accès aux données de vos comptes de stockage.</block>
+  <block id="02135eee51d89316848e37e7ea143077" category="cell">Par défaut, les clés de chiffrement gérées par Microsoft sont utilisées pour chiffrer vos données.</block>
+  <block id="a99fab69b8aa9775fe1767ce605ae8bd" category="summary">NetApp fournit un support pour la console NetApp de différentes manières. De nombreuses options d'auto-assistance gratuites sont disponibles 24h/24 et 7j/7, telles que des articles de la base de connaissances (KB) et un forum communautaire. Votre inscription au support inclut une assistance technique à distance via un ticket web.</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">Obtenir de l'aide</block>
+  <block id="776abbf4d80cbef17bd3c86ff37b2257" category="paragraph">L'enregistrement du support est requis pour bénéficier d'un support technique spécifique à la console NetApp et à ses solutions de stockage et services de données. L'enregistrement du support est également requis pour activer les flux de travail clés pour les systèmes Cloud Volumes ONTAP .</block>
+  <block id="ba4e23e03f4354a0f1ef2781272c8477" category="paragraph">L'inscription au support n'active pas la prise en charge NetApp pour un service de fichiers de fournisseur cloud. Pour obtenir une assistance technique relative à un service de fichiers de fournisseur cloud, à son infrastructure ou à toute solution utilisant le service, reportez-vous à « Obtenir de l'aide » dans la documentation de ce produit.</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSx pour ONTAP</block>
+  <block id="359d8b16e442ffaa72e03c95fcd60448" category="list-text"><block ref="359d8b16e442ffaa72e03c95fcd60448" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="153836c062a78213f2aa165322254aa4" category="list-text"><block ref="153836c062a78213f2aa165322254aa4" category="inline-link-macro-rx"></block></block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="0d592360c983f234b130127efee38805" category="list-text"><block ref="0d592360c983f234b130127efee38805" category="inline-link-macro-rx"></block></block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Présentation de l'enregistrement de l'assistance</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">Il existe deux formes d'inscription pour activer le droit au support :</block>
+  <block id="869a868c87f6fb61410cfd773b4f1bab" category="list-text">Enregistrement du numéro de série de votre compte NetApp Console (votre numéro de série 960xxxxxxxxx à 20 chiffres situé sur la page Ressources de support de la console).</block>
+  <block id="be0b51de4268d87101344aa0368b4403" category="paragraph">Il s'agit de votre identifiant d'abonnement d'assistance unique pour tout service au sein de la console. Chaque compte de console doit être enregistré.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">Enregistrement des numéros de série Cloud Volumes ONTAP associés à un abonnement sur la place de marché de votre fournisseur de cloud (il s'agit de numéros de série 909201xxxxxxxx à 20 chiffres).</block>
+  <block id="3cf9fb70d6921dd90583621f028a395f" category="paragraph">Ces numéros de série sont communément appelés _numéros de série PAYGO_ et sont générés par la console NetApp au moment du déploiement de Cloud Volumes ONTAP .</block>
+  <block id="bf516b6498e37e816d29ae43ae132f74" category="paragraph">L'enregistrement des deux types de numéros de série permet des fonctionnalités telles que l'ouverture de tickets d'assistance et la génération automatique de dossiers. L'enregistrement est terminé en ajoutant des comptes NetApp Support Site (NSS) à la console comme décrit ci-dessous.</block>
+  <block id="ba5983207e417797fefd5b9374ab4a97" category="section-title">Enregistrez la console NetApp pour le support NetApp</block>
+  <block id="dcb7105ba6e3d9411b05e726848feb80" category="paragraph">Pour vous inscrire au support et activer le droit de support, un utilisateur de votre compte NetApp Console doit associer un compte de site de support NetApp à sa connexion à la console. La manière dont vous vous inscrivez au support NetApp dépend du fait que vous possédez déjà ou non un compte NetApp Support Site (NSS).</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">Client existant avec un compte NSS</block>
+  <block id="ed5bddb699a442b85bc1bb8e1516fe57" category="paragraph">Si vous êtes un client NetApp avec un compte NSS, il vous suffit de vous inscrire pour bénéficier de l'assistance via la console.</block>
+  <block id="76bc427c3d9c4b81dc353078b942f991" category="list-text">Sélectionnez *Administration* &gt; *Informations d'identification*.</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">Sélectionnez *Informations d'identification de l'utilisateur*.</block>
+  <block id="e9451600769b4bf4b20ca941ba9e6d19" category="list-text">Sélectionnez *Ajouter des informations d’identification NSS* et suivez l’invite d’authentification du site de support NetApp (NSS).</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">Pour confirmer que le processus d’inscription a réussi, sélectionnez l’icône Aide, puis sélectionnez *Assistance*.</block>
+  <block id="1d4ea9fd10f6cfcd6f6fe1f861d354a4" category="paragraph">La page *Ressources* devrait indiquer que votre compte Console est enregistré pour l'assistance.</block>
+  <block id="afe8240ca62f4b72006980ff64d371b8" category="paragraph">Notez que les autres utilisateurs de la console ne verront pas ce même statut d'enregistrement de support s'ils n'ont pas associé un compte de site de support NetApp à leur connexion. Cependant, cela ne signifie pas que votre compte n'est pas enregistré pour bénéficier de l'assistance. Tant qu'un utilisateur de l'organisation a suivi ces étapes, votre compte a été enregistré.</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">Client existant mais pas de compte NSS</block>
+  <block id="42eaca1e1c2d9e1f04e932eeaa6d129d" category="paragraph">Si vous êtes un client NetApp existant avec des licences et des numéros de série existants mais _pas_ de compte NSS, vous devez créer un compte NSS et l'associer à votre connexion à la console.</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">Formulaire d'inscription des utilisateurs du site de support NetApp</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">Créez un compte sur le site de support NetApp en remplissant le<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">Assurez-vous de sélectionner le niveau d'utilisateur approprié, qui est généralement * Client/Utilisateur final NetApp *.</block>
+  <block id="bd33c4539c7d6985f6edafd4a4f2ba1d" category="list-text">Assurez-vous de copier le numéro de série du compte de console (960xxxx) utilisé ci-dessus pour le champ du numéro de série. Cela accélérera le traitement du compte.</block>
+  <block id="9b1f48f88cd439b7a50fe3e76eb8a853" category="list-text">Associez votre nouveau compte NSS à votre connexion à la console en suivant les étapes ci-dessous<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> .</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Tout nouveau chez NetApp</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Si vous êtes nouveau sur NetApp et que vous n’avez pas de compte NSS, suivez chaque étape ci-dessous.</block>
+  <block id="e7e9f49f4584c68b9d97c578e73b7583" category="list-text">Dans le coin supérieur droit de la console, sélectionnez l’icône Aide, puis sélectionnez *Support*.</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Recherchez le numéro de série de votre identifiant de compte sur la page d'inscription au support.</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Une capture d'écran du menu Aide où Support est la première option répertoriée</block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Site d'inscription au support de NetApp</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Accéder à<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> et sélectionnez *Je ne suis pas un client NetApp enregistré*.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Remplissez les champs obligatoires (ceux avec des astérisques rouges).</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">Dans le champ *Gamme de produits*, sélectionnez *Cloud Manager*, puis sélectionnez votre fournisseur de facturation applicable.</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">Copiez le numéro de série de votre compte à l'étape 2 ci-dessus, effectuez la vérification de sécurité, puis confirmez que vous avez lu la politique de confidentialité des données mondiales de NetApp.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">Un email est immédiatement envoyé à la boîte mail prévue à cet effet pour finaliser cette transaction sécurisée. Assurez-vous de vérifier vos dossiers spam si l'e-mail de validation n'arrive pas dans quelques minutes.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Confirmez l'action depuis l'e-mail.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">La confirmation soumet votre demande à NetApp et vous recommande de créer un compte sur le site de support NetApp .</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">Assurez-vous de copier le numéro de série du compte (960xxxx) utilisé ci-dessus pour le champ du numéro de série. Cela accélérera le traitement.</block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Après avoir terminé</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp devrait vous contacter au cours de ce processus. Il s’agit d’un exercice d’intégration unique pour les nouveaux utilisateurs.</block>
+  <block id="629757336278be576456cf315303b178" category="paragraph">Une fois que vous avez votre compte de site de support NetApp , associez le compte à votre connexion à la console en suivant les étapes ci-dessous<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> .</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">Associer les informations d'identification NSS pour la prise en charge de Cloud Volumes ONTAP</block>
+  <block id="f22d1a855e255746a6b925a3b22f7838" category="paragraph">L'association des informations d'identification du site de support NetApp à votre compte de console est requise pour activer les workflows clés suivants pour Cloud Volumes ONTAP:</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">Enregistrement des systèmes Cloud Volumes ONTAP prépayés pour le support</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">Fournir votre compte NSS est nécessaire pour activer le support de votre système et pour accéder aux ressources de support technique NetApp .</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">Déploiement de Cloud Volumes ONTAP lorsque vous apportez votre propre licence (BYOL)</block>
+  <block id="f3cd224f9506684fa3b5e2b89b2a566c" category="paragraph">Il est nécessaire de fournir votre compte NSS pour que la console puisse télécharger votre clé de licence et activer l'abonnement pour la durée que vous avez achetée. Cela inclut les mises à jour automatiques pour les renouvellements de mandat.</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Mise à niveau du logiciel Cloud Volumes ONTAP vers la dernière version</block>
+  <block id="daf104544b5203a46e1580e1b8583f1f" category="paragraph">L’association des informations d’identification NSS à votre compte de console NetApp est différente du compte NSS associé à une connexion utilisateur de console.</block>
+  <block id="5bc1315a63455544e7a917a7cc968939" category="paragraph">Ces informations d’identification NSS sont associées à votre ID de compte de console spécifique. Les utilisateurs appartenant à l'organisation Console peuvent accéder à ces informations d'identification depuis *Support &gt; Gestion NSS*.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Si vous disposez d’un compte client, vous pouvez ajouter un ou plusieurs comptes NSS.</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Si vous disposez d'un compte partenaire ou revendeur, vous pouvez ajouter un ou plusieurs comptes NSS, mais ils ne peuvent pas être ajoutés aux côtés des comptes de niveau client.</block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">Sélectionnez *Gestion NSS &gt; Ajouter un compte NSS*.</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">Lorsque vous y êtes invité, sélectionnez *Continuer* pour être redirigé vers une page de connexion Microsoft.</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp utilise Microsoft Entra ID comme fournisseur d’identité pour les services d’authentification spécifiques au support et aux licences.</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">Sur la page de connexion, indiquez votre adresse e-mail et votre mot de passe enregistrés sur le site de support NetApp pour effectuer le processus d'authentification.</block>
+  <block id="7687b0a57d5cb728d9fb892dfc814715" category="paragraph">Ces actions permettent à la console d'utiliser votre compte NSS pour des tâches telles que les téléchargements de licences, la vérification des mises à niveau de logiciels et les futures inscriptions au support.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Notez ce qui suit :</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">Le compte NSS doit être un compte de niveau client (pas un compte invité ou temporaire). Vous pouvez avoir plusieurs comptes NSS au niveau client.</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">Il ne peut y avoir qu'un seul compte NSS si ce compte est un compte de niveau partenaire. Si vous essayez d'ajouter des comptes NSS au niveau client et qu'un compte au niveau partenaire existe, vous obtiendrez le message d'erreur suivant :</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">« Le type de client NSS n'est pas autorisé pour ce compte car il existe déjà des utilisateurs NSS de types différents. »</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">Il en va de même si vous disposez de comptes NSS préexistants au niveau client et que vous essayez d’ajouter un compte au niveau partenaire.</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">Une fois la connexion réussie, NetApp stockera le nom d'utilisateur NSS.</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Une icône de trois points horizontaux</block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">Il s’agit d’un identifiant généré par le système qui correspond à votre e-mail. Sur la page *Gestion NSS*, vous pouvez afficher votre e-mail à partir du<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> menu.</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">Si vous avez besoin d'actualiser vos jetons d'identification de connexion, il existe également une option *Mettre à jour les informations d'identification* dans le<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> menu.</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">L'utilisation de cette option vous invite à vous reconnecter. Notez que le jeton de ces comptes expire après 90 jours. Une notification sera publiée pour vous en informer.</block>
+  <block id="512fd5eb37bb5d3f000a423886a72dd0" category="summary">Avant de pouvoir ouvrir un dossier d'assistance auprès du support technique NetApp , vous devez ajouter un compte de site de support NetApp à la console NetApp , puis vous inscrire au support.</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Inscrivez-vous pour obtenir de l'aide</block>
+  <block id="1a5c7abb09e3d3feef67160c6bf7e9de" category="summary">Après avoir installé un agent de console dans Azure, la console NetApp peut automatiquement découvrir des informations sur les comptes de stockage Azure qui résident dans les abonnements Azure où l’agent de console est installé.</block>
+  <block id="9a3a653da58394b22bef7791dd8554eb" category="doc">Afficher vos comptes de stockage Azure Blob</block>
+  <block id="9d25e9a3093ef1c625de6c96383dadc4" category="paragraph">Après avoir installé un agent de console dans Azure, la console NetApp peut automatiquement découvrir des informations sur les comptes de stockage Azure qui résident dans les abonnements Azure où l’agent de console est installé.  Un système Azure Blob est ajouté à la page Systèmes afin que vous puissiez afficher ces informations.</block>
+  <block id="3decc2b25551b75d7f00f21ece6c37ea" category="paragraph">Vous pouvez voir les détails de vos comptes de stockage Azure, notamment l’emplacement, le groupe de ressources, la capacité utilisée, etc.  Ces comptes peuvent être utilisés comme destinations pour les opérations de NetApp Backup and Recovery, NetApp Copy and Sync et NetApp Cloud Tiering.</block>
+  <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link">Installer un agent de console</block>
+  <block id="e305470faa4bea1f1f5144045f2855a6" category="list-text"><block ref="fa576e0e09315256214eb07edac2adf4" category="inline-link-rx"></block>dans le compte Azure où vous souhaitez afficher vos comptes de stockage Azure Blob.</block>
+  <block id="59bd34e0021703b8d6db7819960639e9" category="list-text">Dans le menu de navigation, sélectionnez *Stockage &gt; Systèmes*.</block>
+  <block id="a447fa14efc2bf91db07251c38fac4e1" category="paragraph">Vous devriez voir automatiquement un système de stockage d’objets blob Azure peu de temps après.</block>
+  <block id="86224655d8b1f0ade9e896b9fcf0b60c" category="inline-image-macro">Une capture d’écran d’un système de stockage d’objets blob Azure.</block>
+  <block id="e8a45ade7a31a907706b0eced41a6797" category="paragraph"><block ref="e8a45ade7a31a907706b0eced41a6797" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4098d8a4f7e10e5fc76c2c55328b4219" category="list-text">Sélectionnez le système. Si vous souhaitez activer les services de données NetApp avec votre stockage Azure Blob, sélectionnez une action dans le volet de droite</block>
+  <block id="fd18f232d9dd1b88b02517ddd904f5e0" category="inline-link-macro">Découvrez les services de données disponibles et apprenez à les utiliser avec vos comptes de stockage d'objets blob Azure.</block>
+  <block id="fc6f877cd20e7e37aa8ef215441d07c2" category="paragraph"><block ref="61f14c3be563a407ea1e5b89809c8f9e" category="inline-link-macro-rx"></block> .</block>
+  <block id="d73d41e98f1a86dd4bb3df8c7938989e" category="list-text">Sélectionnez *Entrer dans le système* ou double-cliquez sur le système pour afficher les détails des comptes de stockage Azure.</block>
+  <block id="092a9b96bd1de839450d54782f44b81e" category="inline-image-macro">Une capture d’écran qui montre les détails d’un système Azure Blob : le nombre total de comptes de stockage, le nombre total d’emplacements, les groupes de ressources, la capacité totale, etc.</block>
+  <block id="35c017a4cbd6dbb64b49b2a2cd7d98cf" category="paragraph"><block ref="35c017a4cbd6dbb64b49b2a2cd7d98cf" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fe6cbd8a6e61161bb3e680f8276259b3" category="paragraph">En plus des colonnes qui s'affichent par défaut, vous pouvez faire défiler la page pour afficher des propriétés supplémentaires pour le compte de stockage ; par exemple, le nombre de balises et le type de cryptage qui a été activé.</block>
+  <block id="cce78dc6ebbec7385a01f2146d6d01c8" category="paragraph-title">Prochaines étapes</block>
+  <block id="6aa300e24ddf3ee5a99bbb1cf5bb4a72" category="inline-link-macro">Cliquez ici pour plus de détails</block>
+  <block id="f848664f4a12a4d85a2bba2148945bd1" category="paragraph">Vous pouvez modifier certains paramètres du compte de stockage directement depuis la console en sélectionnant<block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> pour un compte de stockage. <block ref="9c8d49d6625e6bf11b03ca72c09c01c2" category="inline-link-macro-rx"></block> .</block>
+  <block id="5cf659dc6e09c32c169575fe26b201ae" category="paragraph">Vous pouvez ajouter de nouveaux buckets en sélectionnant *Ajouter un compte de stockage*. <block ref="12b5c739b359c8d18d1137eb9ca164cd" category="inline-link-macro-rx"></block> .</block>
+  <block id="772684c801abc651ae0dc31659435455" category="summary">Découvrez les nouveautés d’Azure Blob Storage dans la console NetApp .</block>
+  <block id="04931c6c4c232b07934b219431629bbe" category="doc">Nouveautés du stockage d'objets blob Azure dans la console NetApp</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">06 octobre 2025</block>
+  <block id="58770c745f8af8b420df40e44a144c15" category="section-title">05 juin 2023</block>
+  <block id="f541f709f2df7eb795369863ef11f4d0" category="sidebar">Commencez à utiliser le stockage Azure Blob avec la console NetApp .</block>
+  <block id="3248c863cc0fef1b82096d4ead258a65" category="sidebar">Documentation sur le stockage d'objets blob Azure</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Commencer</block>
+  <block id="d6e6988ac0c468e057a7e03d242d4482" category="sidebar">Gérer les comptes de stockage Azure Blob</block>
+  <block id="9268e6eddc40b903b8d17875688dc8fd" category="sidebar">Ajouter des comptes de stockage Blob</block>
+  <block id="da76ba9e74fcf14ff7a78009d4a7c47f" category="sidebar">Modifier les paramètres du compte de stockage</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="sidebar">Plus d'informations</block>
+  <block id="511af8988082598d374bf60b1f8a78a0" category="sidebar">Documentation du stockage d'objets blob Azure pour la gestion en dehors de la console</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs et communauté</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="sidebar">Console NetApp</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">Services de données NetApp</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Communauté NetApp</block>
+  <block id="f7075df207de578e65f65593c4432af6" category="sidebar">Documentation sur le stockage d'objets blob Azure</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Notes de version</block>
+  <block id="baf9c0d022fa9e7a85fa77eeb954adbd" category="sidebar">Ajouter de nouveaux comptes de stockage</block>
+  <block id="0143afd4b3b57a4efca22155b835b7f2" category="sidebar">Modifier les paramètres des comptes de stockage</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Connaissances et soutien</block>
+</blocks>

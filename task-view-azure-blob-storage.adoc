@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: task-view-azure-blob-storage.html 
+keywords: blob storage, blob system, azure blob storage accounts, azure blob working environment 
+summary: Après avoir installé un agent de console dans Azure, la console NetApp peut automatiquement découvrir des informations sur les comptes de stockage Azure qui résident dans les abonnements Azure où l’agent de console est installé. 
+---
+= Afficher vos comptes de stockage Azure Blob
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Après avoir installé un agent de console dans Azure, la console NetApp peut automatiquement découvrir des informations sur les comptes de stockage Azure qui résident dans les abonnements Azure où l’agent de console est installé.  Un système Azure Blob est ajouté à la page Systèmes afin que vous puissiez afficher ces informations.
+
+Vous pouvez voir les détails de vos comptes de stockage Azure, notamment l’emplacement, le groupe de ressources, la capacité utilisée, etc.  Ces comptes peuvent être utilisés comme destinations pour les opérations de NetApp Backup and Recovery, NetApp Copy and Sync et NetApp Cloud Tiering.
+
+.Étapes
+. https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["Installer un agent de console"^]dans le compte Azure où vous souhaitez afficher vos comptes de stockage Azure Blob.
+. Dans le menu de navigation, sélectionnez *Stockage > Systèmes*.
++
+Vous devriez voir automatiquement un système de stockage d’objets blob Azure peu de temps après.
+
++
+image:screenshot-azure-blob-we.png["Une capture d’écran d’un système de stockage d’objets blob Azure."]
+
+. Sélectionnez le système. Si vous souhaitez activer les services de données NetApp avec votre stockage Azure Blob, sélectionnez une action dans le volet de droite
++
+link:task-blob-enable-data-services.html["Découvrez les services de données disponibles et apprenez à les utiliser avec vos comptes de stockage d'objets blob Azure."] .
+
+. Sélectionnez *Entrer dans le système* ou double-cliquez sur le système pour afficher les détails des comptes de stockage Azure.
++
+image:screenshot-azure-blob-details.png["Une capture d’écran qui montre les détails d’un système Azure Blob : le nombre total de comptes de stockage, le nombre total d’emplacements, les groupes de ressources, la capacité totale, etc."]
+
++
+En plus des colonnes qui s'affichent par défaut, vous pouvez faire défiler la page pour afficher des propriétés supplémentaires pour le compte de stockage ; par exemple, le nombre de balises et le type de cryptage qui a été activé.
+
+
+
+.Prochaines étapes
+Vous pouvez modifier certains paramètres du compte de stockage directement depuis la console en sélectionnantimage:button-horizontal-more.gif["le bouton trois points supplémentaires"] pour un compte de stockage. link:task-change-blob-storage-settings.html["Cliquez ici pour plus de détails"] .
+
+Vous pouvez ajouter de nouveaux buckets en sélectionnant *Ajouter un compte de stockage*. link:task-add-blob-storage.html["Cliquez ici pour plus de détails"] .
