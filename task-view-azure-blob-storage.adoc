@@ -19,7 +19,7 @@ Après avoir installé un agent de console dans Azure, la console NetApp peut au
 Vous pouvez voir les détails de vos comptes de stockage Azure, notamment l’emplacement, le groupe de ressources, la capacité utilisée, etc.  Ces comptes peuvent être utilisés comme destinations pour les opérations de NetApp Backup and Recovery, NetApp Copy and Sync et NetApp Cloud Tiering.
 
 .Étapes
-. https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["Installer un agent de console"^]dans le compte Azure où vous souhaitez afficher vos comptes de stockage Azure Blob.
+. https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-connector-azure.html["Installer un agent de console"^]dans le compte Azure où vous souhaitez afficher vos comptes de stockage Azure Blob.
 . Dans le menu de navigation, sélectionnez *Stockage > Systèmes*.
 +
 Vous devriez voir automatiquement un système de stockage d’objets blob Azure peu de temps après.

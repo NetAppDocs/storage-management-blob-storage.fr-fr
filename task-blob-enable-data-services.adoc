@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-blob-enable-data-services.html 
 keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, system 
-summary: Après avoir découvert les comptes de stockage Azure Blob dans BlueXP, vous pouvez utiliser les services de données NetApp pour la sauvegarde, la hiérarchisation et la synchronisation des données. 
+summary: Une fois que vous avez découvert les comptes de stockage Azure Blob dans la console NetApp , vous pouvez utiliser les services de données NetApp pour la sauvegarde, la hiérarchisation et la synchronisation des données. 
 ---
 = Utiliser les services de données NetApp avec le stockage Azure Blob
 :hardbreaks:
@@ -21,14 +21,14 @@ Une fois que vous avez découvert les comptes de stockage Azure Blob dans la con
 Pour commencer, accédez à la page Systèmes.  Faites glisser et déposez un système ONTAP ou Cloud Volumes ONTAP local sur votre système de stockage d’objets blob Azure.
 
 +
-https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["En savoir plus sur la sauvegarde des données ONTAP sur le stockage Azure Blob"^] .
+https://docs.netapp.com/us-en/data-services-backup-recovery/concept-ontap-backup-to-cloud.html["En savoir plus sur la sauvegarde des données ONTAP sur le stockage Azure Blob"^] .
 
 * Utilisez * NetApp Cloud Tiering* pour hiérarchiser les données inactives des clusters ONTAP locaux vers le stockage Azure Blob.
 +
 Pour commencer, accédez à la page Systèmes.  Faites glisser et déposez un système ONTAP local sur votre système de stockage d’objets blob Azure.
 
 +
-https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-azure.html["En savoir plus sur la hiérarchisation des données ONTAP vers le stockage Azure Blob"^] .
+https://docs.netapp.com/us-en/data-services-cloud-tiering/task-tiering-onprem-azure.html["En savoir plus sur la hiérarchisation des données ONTAP vers le stockage Azure Blob"^] .
 
 * Utilisez * NetApp Copy and Sync* pour synchroniser les données vers ou depuis les comptes de stockage Azure Blob.
 +
@@ -38,6 +38,6 @@ Pour commencer, accédez à la page Systèmes.  Faites glisser et déposez le sy
 Vous pouvez également sélectionner votre système de stockage d’objets blob Azure, puis *Copier et synchroniser* dans le panneau Services pour synchroniser les données vers ou depuis les comptes de stockage d’objets blob Azure.
 
 +
-https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["En savoir plus sur la copie et la synchronisation"^] .
+https://docs.netapp.com/us-en/data-services-copy-sync/concept-cloud-sync.html["En savoir plus sur la copie et la synchronisation"^] .
 
 
